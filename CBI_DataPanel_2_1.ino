@@ -33,8 +33,8 @@
 #define greenVCC 12.0    // Green LED on if above this voltage
 #define yellowVCC 11.0   // Yellow LED on if above this voltage
 #define redVCC 10.5      // Red LED on if above this voltage
-#define voltScale 5.04   // A handy way to tune your reults higher values is a higher voltage rpoduced from the monitoring
-                        //  I tuned this value, until the debug mode showed the correct battery voltage
+#define voltScale 5.04   // A handy way to tune your results.  Higher values is a higher voltage poduced from the monitoring
+                        //  Tune this value until the vin shows the correct battery voltage in the serial monitor.
                         
 // For 15volts: R1=47k, R2=24k
 // For 30volts: R1=47k, R2=9.4k
